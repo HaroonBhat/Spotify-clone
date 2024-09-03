@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="left">
+            <div class="home">
+                <div class="logo">
+                    <img class="invert" src="/images/logo.svg" alt="">
+                    <img class="invert ham-close" src="images/hamburger-close.svg" alt="">
+                </div>
+                <div>
+                    <ul class="head">
+                        <li class="flex head-cont1">
+                            <img class="invert" src="/images/home.svg" alt="">
+                            <a class="links" href="">Home</a>
+                        </li>
+                        <li class="flex head-cont2">
+                            <img class="invert" src="/images/search.svg" alt="">
+                            <a class="links">Search</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="libary">
+                <div class="header">
+                    <button><span><img class="invert img-size" src="/images/library.svg" alt=""></span> Your
+                        Library</button>
+                    <span><button><img class="invert img-plus" src="/images/plus.svg" alt=""></button></span>
+                </div>
+                <div class="left-mid">
+                    <ul>
+
+                    </ul>
+
+                </div>
+                <div class="left-bottom">
+                    <div class="bottom-top">
+                        <ul>
+                            <li><a class="links" href="">Legal</a></li>
+                            <li><a class="links" href="">Safety & Privacy Center</a></li>
+                            <li><a class="links" href="">Privacy Policy</a> </li>
+                            <li><a class="links" href="">Cookies</a></li>
+                            <li><a class="links" href="">About Ads</a> </li>
+                            <li><a class="links" href="">Accessibility</a></li>
+
+                        </ul>
+                        <a class="links" href="">Cookies</a>
+                    </div>
+                    <div class="bottom-down"></div>
+                </div>
+            </div>
+        </div>
+        <!-- Right side -->
+        <div class="right">
+            <div class="right-header">
+                <div class="arrows">
+                 
+                        <img class="hamburger invert" src="/images/hamburger.svg" alt="" srcset="">
+                    <button>
+                        <img class="invert arrow" src="/images/arrow-left.svg" alt="">
+                    </button>
+                    <button>
+                        <img class="invert arrow" src="/images/arrow-right.svg" alt="">
+                    </button>
+                </div>
+                <div class="search">
+
+                </div>
+                <div class="login">
+                    <button>Sign up</button>
+                    <button>Log in</button>
+                </div>
+            </div>
+
+            <div class="body">
+                <div class="playlist-container">
+                    <h2>Spotify playlist</h2>
+                    <div class="playlist">
+
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="play-song">
+                <div class="container_two">
+                    <div>                        
+                        <p class="songName"></p>
+                    </div>
+
+
+                    <div class="song-time">
+                        <p id="current_Time"></p>
+                        <span class="seekbar"></span>
+                        <p id="song_Duration"></p>
+                    </div>
+
+                    <div class="controls">
+                        <section>
+                            <img class="loop" src="images/loop.svg" alt="">
+                        </section>
+                        <section>
+                            <img class="svg previous" id="previous" src="/images/previous.svg" alt="">
+                            <img id="play" class="play-btn" src="/images/play V2.svg" alt="">
+                            <img class="svg" id="next" src="/images/next.svg" alt="">
+                        </section>
+                        <section class="volume flex">
+                            <img class="invert svg" id="sound" src="/images/volume.svg" alt="">
+                            <div>
+                                <input type="range" name="sound" id="range">
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+
+</html>
